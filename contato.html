@@ -10,7 +10,7 @@
         <table border="0" width="1000" align="center">
             <tr>
                 <td height="89"><img src="Imagens/logo.png"></td>
-                <td align="right">&nbsp;<a href="index.html">Home</a>&nbsp;|&nbsp;<a href="quemsomos.html">Quem somos
+                <td align="right">&nbsp;<a href="index.html">Página Inicial</a>&nbsp;|&nbsp;<a href="quemsomos.html">Quem somos
                 </a>&nbsp;|&nbsp;<a href="">Contato</a></td>
             </tr>
             
@@ -21,21 +21,21 @@
                         <p>Sed eros elit, ultricies quis arcu eget, mattis ultricies tellus. Donec mollis cursus nisl non viverra.</p>
                         <hr>
                         <p>Seu e-mail:</p>
-                        <input type="text" name="nome">
+                        <input type="text" id="campo" name="nome">
                         <p>Assunto:</p>
-                        <input type="text" name="assunto">
+                        <input type="text" id="campo" name="assunto">
                         <p>Descrição:</p>
-                        <textarea>
+                        <textarea id="campo">
                         </textarea><br>
-                        <input type="submit" value="Enviar">
+                        <button type="submit" onclick="alertalouco()"; style="text-align: center; ">Enviar</button>
                     </form>
                 </td>
 
                 <td>
                     <p>Nome:</p>
-                    <input type="text" name="nome"><br><br>
-                    <input type="radio" name="sexo" value="M">Masculino<br>
-                    <input type="radio" name="sexo" value="F">Feminino<br>
+                    <input type="text" id="campo" name="nome"><br><br>
+                    <input type="radio" id="campo" name="sexo" value="M">Masculino<br>
+                    <input type="radio" id="campo" name="sexo" value="F">Feminino<br>
                 </td>
                     
             </tr>
@@ -45,6 +45,6 @@
             </tr>
 
         </table>
-        
+        <script src="index.js"></script>
     </body>
 </html>
